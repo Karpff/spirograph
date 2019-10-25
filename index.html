@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spirograph</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="panel">
+      <h3>First Arm</h3>
+      <table>
+        <tr>
+          <td>Amount:</td>
+          <td><input type="text" id="stAmount"></td>
+        </tr>
+        <tr>
+          <td>Speed:</td>
+          <td><input type="text" id="stSpeed"></td>
+        </tr>
+        <tr>
+          <td>Length:</td>
+          <td><input type="text" id="stLength"></td>
+        </tr>
+        <tr>
+          <td>Color:</td>
+          <td><input type="text" id="stColor"></td>
+        </tr>
+      </table>
+      <h3>Second Arm</h3>
+      <table>
+        <tr>
+          <td>Amount:</td>
+          <td><input type="text" id="ndAmount"></td>
+        </tr>
+        <tr>
+          <td>Speed:</td>
+          <td><input type="text" id="ndSpeed"></td>
+        </tr>
+        <tr>
+          <td>Length:</td>
+          <td><input type="text" id="ndLength"></td>
+        </tr>
+        <tr>
+          <td>Color:</td>
+          <td><input type="text" id="ndColor"></td>
+        </tr>
+      </table>
+      <h3>Third Arm</h3>
+      <table>
+        <tr>
+          <td>Amount:</td>
+          <td><input type="text" id="rdAmount"></td>
+        </tr>
+        <tr>
+          <td>Speed:</td>
+          <td><input type="text" id="rdSpeed"></td>
+        </tr>
+        <tr>
+          <td>Length:</td>
+          <td><input type="text" id="rdLength"></td>
+        </tr>
+        <tr>
+          <td>Color:</td>
+          <td><input type="text" id="rdColor"></td>
+        </tr>
+      </table>
+      <h4>Background:<br><input type="text" id="bg"></h4>
+      <button onclick="run()">Run!</button><br>
+      <button onclick="stop()" id="stopButton">Stop!</button><br>
+      <button onclick="clr()">Clear!</button><br>
+      <button onclick="randomize()">Random!</button><br>
+      <button onclick="seedGen()">Generate a Seed!</button><br>
+      <button onclick="seedRun()">Run from a Seed!</button>
+
+    </div>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="arm.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

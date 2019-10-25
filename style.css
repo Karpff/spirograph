@@ -1,0 +1,52 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#panel
+{
+  height: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #DDDDDD;
+  text-align: center;
+  overflow-y: auto;
+}
+
+#panel input
+{
+  width: 50px;
+  text-align: center;
+}
+
+#panel button
+{
+  width: 90px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#panel h3
+{
+  margin: 5px;
+}
+
+#panel h4 input
+{
+  width: 70px;
+}
+
+#panel h4
+{
+  margin-top: 20px;
+}
+
+#panel h4 input
+{
+  margin-top: 5px;
+}
